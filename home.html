@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Centro de Treinamento de Konoha</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html"><img src="./open-source.png" alt=""></a>
+            
+            <div class="nav__links" id="nav-links">
+                <i class="fa fa-times" onClick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">course</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onClick="showMenu()"></i>
+        
+        </nav>
+
+        <div class="header__text-box">
+            <h1>Centro de Treinamento Konoha</h1>
+            <p>Somos a vila mais poderosa do mundo. E isso se reflete devido ao alto desempenho 
+                de nossos alunos.
+            </p>
+            <a href="" class="header__button">Faça-nos uma visita</a>
+        </div>
+    </header>
+
+    <section class="section__course">
+        <h1>Cursos e Níveis </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, nam vel molestias veniam,
+             dolor quod perferendis nisi error dignissimos corporis in, ex dolorum aspernatur recusandae sunt odio provident cupiditate. Architecto.</p>
+        
+        <div class="section__row">
+            <div class="section__row-info">
+                <h3>Gennin</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium facere mollitia non explicabo dolorum vero ab, atque rem nostrum. Repellat minima iste possimus quidem a! Tempore laudantium iusto accusamus neque.</p>
+            </div>
+
+            <div class="section__row-info">
+                <h3>Junnin</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium facere mollitia non explicabo dolorum vero ab, atque rem nostrum. Repellat minima iste possimus quidem a! Tempore laudantium iusto accusamus neque.</p>
+            </div>
+
+            <div class="section__row-info">
+                <h3>Jonnin</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium facere mollitia non explicabo dolorum vero ab, atque rem nostrum. Repellat minima iste possimus quidem a! Tempore laudantium iusto accusamus neque.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section__campus">
+        <h1>Nossos Centros </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt culpa praesentium ipsam aliquid non nobis? Quo adipisci nobis, distinctio omnis ducimus magnam provident vitae, voluptates maiores corporis, quia rem ratione.</p>
+        
+        <div class="section__campus-info">
+
+            <div class="campus__info">
+                <img src="./pink-flowers-hydrangea-1.jpg" alt="">
+                <div class="info__layer">
+                    <h3>Hydrangea</h3>
+                </div>
+            </div>
+
+            <div class="campus__info">
+                <img src="./pink-flowers-lotus-1.jpg" alt="">
+                <div class="info__layer">
+                    <h3>Lotus</h3>
+                </div>
+            </div>
+
+            <div class="campus__info">
+                <img src="./pink-flowers-meadowsweet-1.jpg" alt="">
+                <div class="info__layer">
+                    <h3>Meadwsweet</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- js toggle menu -->
+    <script>
+        var navLinks =document.getElementById('nav-links');
+        function showMenu() {
+            navLinks.style.right = '0';
+        }
+        function hideMenu() {
+            navLinks.style.right = '-200px';
+        }
+    </script>
+</body>
+</html>
