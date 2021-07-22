@@ -8,30 +8,36 @@
     <title>Centro de Treinamento de Konoha</title>
 </head>
 <body>
+    <!-- particles.js container --> 
+   
     <header>
-        <nav>
-            <a href="home.html"><img src="./open-source.png" alt=""></a>
-            
-            <div class="nav__links" id="nav-links">
-                <i class="fa fa-times" onClick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">about</a></li>
-                    <li><a href="">course</a></li>
-                    <li><a href="">blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onClick="showMenu()"></i>
-        
-        </nav>
+        <div id="particles-js">
+            <canvas class="particles-js-canvas-el" width="1903" height="1200" style="width: 100%; height: 100%;"></canvas>
 
-        <div class="header__text-box">
-            <h1>Centro de Treinamento Konoha</h1>
-            <p>Somos a vila mais poderosa do mundo. E isso se reflete devido ao alto desempenho 
-                de nossos alunos.
-            </p>
-            <a href="" class="default__button">Faça-nos uma visita</a>
+            <nav>
+                <a href="home.html"><img src="./open-source.png" alt=""></a>
+                
+                <div class="nav__links" id="nav-links">
+                    <i class="fa fa-times" onClick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">course</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onClick="showMenu()"></i>
+            
+            </nav>
+
+            <div class="header__text-box">
+                <h1>Centro de Treinamento Konoha</h1>
+                <p>Somos a vila mais poderosa do mundo. E isso se reflete devido ao alto desempenho 
+                    de nossos alunos.
+                </p>
+                <a href="" class="default__button">Faça-nos uma visita</a>
+            </div>
         </div>
     </header>
 
@@ -126,16 +132,18 @@
         <div class="section__row">
 
             <div class="testimony__info">
+                
                 <img src="./naruto.png" alt="">
                 <div>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo sint quasi vitae repudiandae reprehenderit adipisci nobis, nesciunt accusamus sequi enim dolor, quas sit? Culpa, earum recusandae! Iste numquam facere nam!</p>
               
-                <h3>Naruto</h3>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star-half-o"></span>
+                    <h3>Naruto</h3>
+                <div class="icons">
+                   
+                    <span class="fa fa-instagram"></span>
+                    <span class="fa fa-twitter"></span>
+                    <span class="fa fa-linkedin"></span>
+                </div>
               </div>
                 
             </div>
@@ -146,11 +154,12 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo sint quasi vitae repudiandae reprehenderit adipisci nobis, nesciunt accusamus sequi enim dolor, quas sit? Culpa, earum recusandae! Iste numquam facere nam!</p>
               
                 <h3>Sai</h3>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star-half-o"></span> 
+                <div class="icons">
+                   
+                    <span class="fa fa-instagram"></span>
+                    <span class="fa fa-twitter"></span>
+                    <span class="fa fa-linkedin"></span>
+                </div>
              </div>
 
             </div>
@@ -161,11 +170,12 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo sint quasi vitae repudiandae reprehenderit adipisci nobis, nesciunt accusamus sequi enim dolor, quas sit? Culpa, earum recusandae! Iste numquam facere nam!</p>
                 
                 <h3>Tobirama</h3>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star-half-o"></span> 
+                <div class="icons">
+                    
+                    <span class="fa fa-instagram"></span>
+                    <span class="fa fa-twitter"></span>
+                    <span class="fa fa-linkedin"></span>
+                </div>
             </div>
 
             </div>
@@ -193,10 +203,14 @@
             <span class="fa fa-linkedin"></span>
         </div>
 
-        <p>Dev with<span class="fa fa-heart-o"></span> by Isaque Menezes </p>
+        <p>Dev with <span class="fa fa-heart-o"></span> by Isaque Menezes </p>
     </section>
 
 
+
+
+<script src="./library/js/particles.min.js"></script> 
+<script src="./library/js/partice_2.js"></script>	
 
 
     
