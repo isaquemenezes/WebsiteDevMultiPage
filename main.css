@@ -50,7 +50,7 @@ nav img {
     font-size: 1.3rem;
 }
 .nav__links ul li::after {
-    content: "";
+    content: '';
     width: 0%;
     height: 2px;
     background:#f44336;
@@ -72,7 +72,7 @@ nav img {
    text-align: center;
 }
 .header__text-box h1 {
-    font-size: 3rem;
+    font-size: 62px;
 }
 .header__text-box p {
     margin: 10px 0 40px;
@@ -105,7 +105,7 @@ nav .fa {
 /* Media Queries */
 @media screen and (max-width: 768px) {
     .header__text-box h1 {
-        font-size: 2.5rem;
+        font-size: 20px;
     }
 
     .nav__links ul li {
@@ -122,7 +122,7 @@ nav .fa {
         z-index: 2;
         transition: .5s;
     }
-    .nav .fa {
+    nav .fa {
         display: block;
         color: #fff;
         margin: 10px;
@@ -189,7 +189,6 @@ h3 {
 }
 
 /* section Campus */
-
 .section__campus {
     width: 80%;
     margin: auto;
